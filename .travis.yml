@@ -1,0 +1,10 @@
+language: node
+nodejs:
+- 7.10.0
+deploy:
+  provider: pages
+  skip_cleanup: true
+  on:
+    branch: master
+  github_token:
+    secure: HT1m9hkm4Yj9A+pSPeLD8zFV2pBCZnkrLXMNqvQWFUvt7vbjIToZ4MyuD90Gqz0oVpbZgUUJWJihpQSi0Qvfqbz8B6tj3CUCfASIpoXBliSmSH3TDVcoQCIs2pI2NRC4elyLSCYDG6GgJ8m1gfUHfIuZutG8tWl89NjdtyxKK0FqyIJCe/6NzDPlq8J85g/Ea/UPJ+2l5qJfUkCyW/Z1BNq2vkVSNrxG4HaGFNNeIhNOsmRqqgSyJjnFNxZ19Dx/vtLbZjSWtvKz9FuNWT5BaKdegoQbb1hTFHqQy1nQUyUtfG27Q12TZ64JInlBZ7Bx2Wk6+x1LBr6ej2C+lt3X7KzcsvZU67zFb/NP5wv/+VPKfj1R+I1JZiE/oSxSFZYPSVl4pPZ+SBwXnRyIHic516oHFFGUDXYcf77KoLq6dl2yVf2NyDbVV89TRboaq0nfrPp+v9WVuxGGg36DUJfwKjXU7J0yTK9ffhXgayar4qlP7A3Nrz4p6Ea2+mnpI3ocLBzvwa50aoef47EBYvYnqOa7CifSQuk0PnkEEne1VZVW65/TPQLhDmnSUBsUtipw+PGtvBaNQk1VszvTT5eQFG8NBWud6ei3zDUVDf4JINX60E9vcJU/49TjRzQMblLTJmNFL8YLBsN33h4s59fIdx1mnhE3Md2fNgMz+IW/BZM=
