@@ -1,5 +1,5 @@
-language: node
-nodejs:
+language: node_js
+node_js:
 - 7.10.0
 deploy:
   provider: pages
